@@ -14,6 +14,8 @@
     --whitegrey: #e5eff5;
     --pink: #fa3a57;
     --brown: #a3821a;
+    --middarkgrey: #444;
+    --orange: #d48c1c;
     --darkmode: color(var(--darkgrey) l(+2%));
 }
 

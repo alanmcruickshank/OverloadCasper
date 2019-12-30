@@ -32,7 +32,7 @@ production stylesheet in assets/built/screen.css
 @import "global.css";
 
 body {
-    background: #fff;
+    background: #d8dfe4;
 }
 
 .img {
@@ -95,6 +95,7 @@ body {
     .home-template .post-feed,
     .tag-template .post-feed,
     .author-template .post-feed {
+        margin-top: -70px;
         padding: 40px 0 5vw;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
@@ -102,6 +103,7 @@ body {
 
     .home-template .site-nav {
         position: relative;
+        top: -70px;
     }
 }
 
@@ -111,11 +113,14 @@ body {
 
 .site-header-background {
     position: relative;
-    margin-top: 64px;
+    padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
     background: color(var(--darkgrey) l(-5%)) no-repeat center center;
     background-size: cover;
+    border-bottom-style: solid;
+    border-bottom-width: 15px;
+    border-bottom-color: var(--middarkgrey);
 }
 
 .site-header-background:before {
